@@ -1,3 +1,3 @@
 .pio/build/nodemcu-32s/FrameworkArduino/firmware_msc_fat.c.o: \
- C:/Users/arryr/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.c \
- C:/Users/arryr/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.h
+ /home/it-rki/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.c \
+ /home/it-rki/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.h

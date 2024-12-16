@@ -54,14 +54,8 @@ void loop()
   unsigned long current_time = millis();
   bool wifi_status = wiFiService.isConnected();
   // Check if Wi-Fi is connected
-  if (!wifi_status)
-  {
-    internet_status = false;
-    Serial.println("Connecting to Wi-Fi...");
-  }
-  else
-  {
-    internet_status = true;
+  if(!wifi_status){
+      wiFiService.begin();
   }
 
   int s1 = digitalRead(S1);
@@ -116,6 +110,7 @@ void loop()
     }
   }
 
+  delay(5);
   // Update the SocketService loop to handle socket events
   socketService.loop();
 }
